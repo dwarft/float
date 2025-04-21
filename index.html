@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Float</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Helvetica, sans-serif;
+    }
+
+    .container {
+      background-color: #f3f3f3;
+      width: 100%;
+      height: 100vh;
+      padding: 20px;
+    }
+
+    .cat, .dog {
+      display: inline-block;
+      width: 40%;
+      padding: 10px;
+      border-radius: 25px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    p {
+      font-size: 2em;
+    }
+
+    .cat {
+      float: left;
+      background-color: rgb(0, 255, 136);
+    }
+
+    .dog {
+      float: right;
+      background-color: rgb(4, 159, 255);
+    }
+
+    img {
+      float: left;
+      width: 10rem;
+      border-radius: 20px;
+      margin: 10px 10px 0 0;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    footer {
+      clear: both;
+      text-align: center;
+      background-color: blueviolet;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="cat">
+      <h2>CatCSS</h2>
+      <img src="/tugasweb/profil/9104aa1d-3b46-4152-8c72-cd3f247c40ec.jpg" alt="cat in a box" />
+      <p class="first-paragraph">Nap all day cat dog hate mouse eat string barf pillow no baths hate everything but kitty
+        poochy. Sleep on keyboard
+        toy
+        mouse squeak roll over. Mesmerizing birds. Poop on grasses licks paws destroy couch intently sniff hand. The dog
+        smells
+        bad gnaw the corn cob. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit dolores ad distinctio ullam ipsum, repellendus sapiente atque aliquam porro sint.</p>
+    </div>
+  
+    <div class="dog">
+      <h2>DogCSS</h2>
+      <img src="/tugasweb/profil/9104aa1d-3b46-4152-8c72-cd3f247c40ec.jpg" alt="dogs in a box" />
+      <p class="second-paragraph">Nap all day cat dog hate mouse eat string barf pillow no baths hate everything but kitty
+        poochy. Sleep on keyboard
+        toy
+        mouse squeak roll over. Mesmerizing birds. Poop on grasses licks paws destroy couch intently sniff hand. The dog
+        smells
+        bad gnaw the corn cob.. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit repudiandae architecto, nulla sint quos odio repellat quasi suscipit consectetur facilis.</p>
+    </div>
+  
+  </div>
+  <footer>Copyright. This is the footer</footer>
+</body>
+
+</html>
